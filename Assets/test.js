@@ -12,7 +12,7 @@ function password () {
         var charac = '!"#$%&\'()*+,-./:;<=>?@[\]^_`{|}~';
         var result = '';
         var choices= alphabets + charac;
-        var charCount = Math.floor(Math.random() * 128)
+        var charCount = Math.floor(Math.random() (128-8) + 8);
         
         // conditional if of the selections
         if (box1.checked) {
